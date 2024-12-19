@@ -1,0 +1,6 @@
+[tool.ruff]
+line-length = 100
+include = ["pyproject.toml", "subdir-b/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["E501"]
